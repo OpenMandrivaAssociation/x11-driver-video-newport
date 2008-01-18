@@ -19,6 +19,7 @@ Patch1: 0001-Define-NEWPORT_-_VERSION-using-PACKAGE_VERSION_.patch
 Patch2: 0002-Rename-.cvsignore-to-.gitignore.patch
 Patch3: 0003-Add-to-.gitignore-to-skip-patch-emacs-droppings.patch
 Patch4: 0004-Update-for-new-policy-of-hidden-symbols-and-common-m.patch
+Patch5: 0005-Don-t-need-to-check-for-dri-headers-runtime.patch
 ########################################################################
 BuildRequires: x11-util-macros		>= 1.1.5-4mdk
 BuildRequires: libpixman-1-devel	>= 0.9.6
@@ -36,6 +37,7 @@ The X.org video driver for SGI Indy's and Indigo2's Newport video cards.
 %patch2 -p1
 %patch3 -p1
 %patch4 -p1
+%patch5 -p1
 
 %build
 autoreconf -ifs
