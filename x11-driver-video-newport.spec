@@ -13,7 +13,8 @@ BuildRequires: x11-util-macros >= 1.0.1
 Conflicts: xorg-x11-server < 7.0
 
 %description
-The X.org video driver for SGI Indy's and Indigo2's Newport video cards.
+x11-driver-video-newport is the X.org video driver for SGI Indy's and
+Indigo2's Newport video cards.
 
 %prep
 %setup -q -n xf86-video-newport-%{version}
