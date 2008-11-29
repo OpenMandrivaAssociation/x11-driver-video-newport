@@ -1,6 +1,6 @@
 Name: x11-driver-video-newport
 Version: 0.2.1
-Release: %mkrel 5
+Release: %mkrel 6
 Summary: The X.org video driver for SGI Indy's and Indigo2's Newport video cards
 Group: Development/X11
 URL: http://xorg.freedesktop.org
