@@ -1,10 +1,11 @@
 Name: x11-driver-video-newport
 Version: 0.2.3
-Release: %mkrel 3
+Release: %mkrel 4
 Summary: The X.org video driver for SGI Indy's and Indigo2's Newport video cards
 Group: System/X11
 URL: http://xorg.freedesktop.org
 Source: http://xorg.freedesktop.org/releases/individual/driver/xf86-video-newport-%{version}.tar.bz2
+Patch0: 0001-newport-stop-using-obsolete-loader-functions.patch
 License: MIT
 BuildRoot: %{_tmppath}/%{name}-root
 BuildRequires: x11-proto-devel >= 1.0.0
@@ -20,6 +21,7 @@ Indigo2's Newport video cards.
 
 %prep
 %setup -q -n xf86-video-newport-%{version}
+%apply_patches
 
 %build
 %configure2_5x
