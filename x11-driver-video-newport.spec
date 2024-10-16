@@ -4,7 +4,7 @@ Release: 2
 Summary: The X.org video driver for SGI Indy's and Indigo2's Newport video cards
 Group: System/X11
 License: MIT
-URL: http://xorg.freedesktop.org
+URL: https://xorg.freedesktop.org
 Source0: http://xorg.freedesktop.org/releases/individual/driver/xf86-video-newport-%{version}.tar.bz2
 
 BuildRequires: x11-proto-devel >= 1.0.0
